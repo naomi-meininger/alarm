@@ -19,7 +19,7 @@ This Python script utilizes the `scapy` library to sniff network traffic and det
 - Python 3
 - `scapy` library (`pip install scapy`)
 - Root privileges required for live sniffing on network interfaces.
-- 
+
 ### Usage:
 - **Command Line Arguments**:
   - `-i <interface>`: Specify the network interface to sniff on (default is `eth0`).
