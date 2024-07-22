@@ -26,7 +26,7 @@ This Python script utilizes the `scapy` library to sniff network traffic and det
   - `-r <pcapfile>`: Specify a PCAP file to read instead of live sniffing.
 
 ### Examples
-To sniff on interface `eth0`: `python sniffer.py -i eth0`
+To sniff on interface `eth0`: `python sniffer.py -i eth0` <br>
 To analyze a PCAP file, use the following command: `python sniffer.py -r example.pcap`
 
 ### Output
