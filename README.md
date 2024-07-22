@@ -30,12 +30,12 @@ To sniff on interface `eth0`: `python sniffer.py -i eth0` <br>
 To analyze a PCAP file, use the following command: `python sniffer.py -r example.pcap`
 
 ### Output
-Detected incidents are printed in the format:
+Detected incidents are printed in the format:<br>
   ALERT #{incident_number}: {incident_detected} is detected from {source_IP} {extra}
-  Where:
-    - {incident_number}: Sequential number of the incident
-    - {incident_detected}: Type of incident detected
-    - {source_IP}: Source IP address where the incident originated
+ <br> Where: <br>
+    - {incident_number}: Sequential number of the incident<br>
+    - {incident_detected}: Type of incident detected<br>
+    - {source_IP}: Source IP address where the incident originated<br>
     - {extra}: Additional information specific to the incident (e.g., port number)
 
 ### Notes
